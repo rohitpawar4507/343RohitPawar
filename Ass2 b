@@ -1,0 +1,16 @@
+#@ author: Rohit Pawar
+
+list=[1,2,8,4,3,10,9]
+print(list)
+list.insert(2, 11)        #insert 11 at index 2
+print(list)
+list.remove(3)            #remove object 
+print(list)
+list.append(5)           #add object at the end of list
+print(list)
+list.sort()              # sort the list
+print(list)
+list.pop(4)              #delete the element 
+print(list)            
+print(list[::-1])      #does not modify the original list
+list.reverse()         #reverse list
